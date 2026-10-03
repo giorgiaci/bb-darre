@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    color: #4D5051;
+    overflow-x: hidden;
+} 
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+/* Importing Animation SCSS file. */
+@import './assets/scss/animate';

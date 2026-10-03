@@ -1,0 +1,216 @@
+#homepage-widget {
+    min-height: 400px;
+    width: 100%;
+
+    background-image: url('/assets/images/Cucina-iloveimg-compressed.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    .layer{
+        min-height: 400px;       
+        color: rgba(255, 255, 255, 0.9);
+        overflow: hidden;
+        background: rgba(10, 10, 10, 0.75);
+        padding: 55px 0px 40px;
+
+        .booking-link{
+            display: block;
+            position: relative;
+            transform: translate(4%, 100%);
+        
+        }
+    }
+}
+
+.images-container{
+    height: 70vh;
+    max-height: 700px;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.actions {
+    position: absolute;
+    z-index: 10;
+    top: 40%;
+    left: 20%;
+    font-size: 20px;
+    
+    h2{
+        font-size: 46px;
+    }
+    
+    .primary {
+        background: #415b76;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px 25px;
+        text-shadow: 1px 0px 0px #000, 1px 0px 1px #000, 1px 0px 1px #000;
+        margin-right: 2rem;
+
+        &:hover{
+            background: #34495e;
+             animation: bounce 1s;
+        }
+    }
+
+    .secondary {
+        background: #505050;
+        background: rgba( 200, 200, 200, 0.9 );
+        color: #ffffff;
+        text-decoration: none;
+        padding: 15px 25px;
+        text-shadow: 1px 0px 0px #000, 1px 0px 1px #000, 1px 0px 1px #000;
+
+        &:hover{
+            background: #505050;
+            color: #ffffff;
+        }
+    }
+}
+
+.feature-box {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px;
+    min-height: 330px;
+    background: #34495e;
+    color: #ffffff;
+    cursor: pointer;
+    text-shadow: 1px 0px 0px #000, 1px 0px 1px #000, 1px 0px 1px #000;
+
+    .icon {
+        color: #fff;
+        font-size: 38px;
+        margin: 5px 0 25px 0;
+        position: relative;
+    }
+}
+
+.contatti,
+.prenota {
+    padding: 7rem;
+}
+
+.intermezzo-info {
+    position: relative;
+
+    .contatti {
+        animation-name: fadeInUp;
+
+        .shadow>.entry-title {
+            color: #34495e;
+        }
+    }
+
+
+}
+
+.info-area {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.85);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 55px 0px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-info {
+    color: rgb(225, 225, 225);
+    text-align: center;
+    position: relative;
+    background: rgb(27, 27, 27);
+    padding: 40px;
+
+    a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: underline;
+    }
+}
+
+.scroll-top {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 20px;
+    background: rgb(10, 10, 10);
+    transition: 0.2s ease-in-out;
+    border-radius: 2px;
+}
+
+.feature-box {
+    flex-wrap: wrap;
+}
+
+.intermezzo-info {
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 1199px) {
+    
+    .contatti,
+    .prenota {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .actions {
+        left: 5%;
+        right: 5%;
+        top: 30%;
+        font-size: 16px;
+
+        h2 {
+            font-size: 30px;
+        }
+
+        .primary,
+        .secondary {
+            display: inline-block;
+            padding: 10px 16px;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    .images-container {
+        height: 45vh;
+        max-height: 400px;
+    }
+
+    .feature-box {
+        padding: 30px 20px;
+        min-height: unset;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .actions {
+        top: 20%;
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    .images-container {
+        height: 35vh;
+        max-height: 320px;
+    }
+}

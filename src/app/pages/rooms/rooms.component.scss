@@ -1,0 +1,52 @@
+:host {
+    display: block;
+    background-image: url('/assets/images/simple_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    background-attachment: fixed;
+    margin-top: 8rem;
+    min-height: calc(100vh - 24.2rem);
+    color: rgb(77, 80, 81);
+}
+
+.rooms-container {
+    padding: 11px 40px;
+    background-color: rgba(250, 250, 250, 0.6);
+}
+
+.room-image-wrapper {
+    img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+.text-accent {
+    text-align: center;
+    color: #00c2a9;
+}
+
+@media (max-width: 991px) {
+    .room-image-wrapper img {
+        height: 45vh;
+    }
+}
+
+@media (max-width: 767px) {
+    :host {
+        background-size: 400px;
+        margin-top: 6rem;
+    }
+
+    .rooms-container {
+        padding: 11px 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    .room-image-wrapper img {
+        height: 35vh;
+    }
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Palermo b&amp;b Darrè</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"/>
+ 
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <meta name="msapplication-TileImage" content="assets/images/cropped-logo-darre-2.png">
+  <meta name="description"
+    content="B&amp;B comodo, b&amp;b economico e b&amp;b comfortevole, b&amp;b al centro storico di Palermo">
+  <meta name="keywords"
+    content=" B&amp;B Palermo, centrostorico, b&amp;b Politeama, b&amp;b  Porto, B&amp;B centro storico, b&amp;b Palermo economico">
+  <script src="https://kit.fontawesome.com/599c768fc0.js" crossorigin="anonymous"></script>
+      <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper('.mySwiper2', {
+        spaceBetween: 10,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+    </script>
+</head>
+
+<body class="mat-typography">
+  <app-root></app-root>
+</body>
+
+</html>

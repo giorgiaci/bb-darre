@@ -1,0 +1,64 @@
+<div class="contacts-container">
+
+    <div class="map">
+        <h2>{{ 'CONTACTS.TITLE' | translate }}</h2>
+        <p>{{ 'CONTACTS.INTRO' | translate }}</p>
+        <p><i class="fa fa-phone phone"></i> +39 329 748 4835<br></p>
+        <p><i class="fa fa-envelope envelop"></i> albertogamma&#64;yahoo.it<br></p>
+        <p><i class="fa fa-globe earth"></i> www.bbdpalermodarrè.it</p>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10724.11953193238!2d13.353823105365047!3d38.12932471574637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319ef587bcf40d3%3A0xc93ef24463e27acd!2zQiZCIERhcnLDqA!5e0!3m2!1sen!2suk!4v1790820633303!5m2!1sen!2suk"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    </div>
+
+    <div class="form">
+        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+
+            <div class="form-group">
+                <div class="d-flex flex-column">
+                    <label for="name">{{ 'CONTACTS.NAME_LABEL' | translate }}</label>
+
+                    <input id="name" type="text" formControlName="name" [placeholder]="'CONTACTS.NAME_LABEL' | translate">
+
+                    @if (contactForm.controls['name'].touched &&
+                    contactForm.controls['name'].invalid) {
+                    <small>{{ 'CONTACTS.NAME_ERROR' | translate }}</small>
+                    }
+
+                </div>
+
+                <div class="d-flex flex-column">
+                    <label for="email">{{ 'CONTACTS.EMAIL_LABEL' | translate }}</label>
+
+                    <input id="email" type="email" formControlName="email" [placeholder]="'CONTACTS.EMAIL_LABEL' | translate">
+
+                    @if (contactForm.controls['email'].touched &&
+                    contactForm.controls['email'].invalid) {
+                    <small>{{ 'CONTACTS.EMAIL_ERROR' | translate }}</small>
+                    }
+
+                </div>
+
+
+                <div class="d-flex flex-column">
+                    <label for="subject">{{ 'CONTACTS.SUBJECT_LABEL' | translate }}</label>
+
+                    <input id="subject" type="text" formControlName="subject" [placeholder]="'CONTACTS.SUBJECT_LABEL' | translate">
+                </div>
+
+                <div class="d-flex flex-column">
+                    <label for="message">{{ 'CONTACTS.MESSAGE_LABEL' | translate }}</label>
+
+                    <textarea id="message" formControlName="message" rows="6" [placeholder]="'CONTACTS.MESSAGE_LABEL' | translate"></textarea>
+                </div>            
+              
+                <button type="submit">
+                    {{ 'CONTACTS.SUBMIT' | translate }}
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

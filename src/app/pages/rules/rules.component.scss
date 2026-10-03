@@ -1,0 +1,21 @@
+:host {
+    display: block;
+    margin-top: 8rem;
+    min-height: calc(100vh - 24.2rem)
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 767px) {
+    :host {
+        margin-top: 6rem;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,61 @@
+
+<div class="row">
+
+    <div class="info-area">
+        <div ><img width="150" height="150"
+                src="assets/images/cropped-logo-darrè-2.png"
+                class="image" alt=""
+                style="max-width: 100%; height: auto; max-width: 150px; width: 100vw; min-width: 150px;">            
+        </div>
+
+        <div >
+            <h2>{{ 'FOOTER.ADDRESS_TITLE' | translate }}</h2>
+            <div>
+                <p>{{ 'FOOTER.ADDRESS' | translate }}</p>
+            </div>
+        </div>
+
+        <div >
+            <h2 >{{ 'HEADER.CONTACTS' | translate }}</h2>
+            <div >
+                <p><i class="fa fa-envelope envelop"></i> mailto:albertogamma&#64;yahoo.it<br>
+                    <i class="fa fa-phone phone"></i> <a href="tel:+39 329 748 4835"
+                        style="color:white; text-decoration: underline; ">+39 329 748 4835</a><br>
+                    C.F CNPLRT82D22G273P
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<div class="site-info">
+
+    <div class="row">
+
+        <div class="copyright">
+            {{ 'FOOTER.COPYRIGHT' | translate }}
+        </div>
+
+        <div>
+
+            <a href="https://www.facebook.com/PalermoDarre" target="_BLANK" class="facebook">
+                <span class="fa fa-facebook"></span>
+            </a>
+        </div>
+
+        <div id="footer-menu" class="footer-nav">            
+            <a [routerLink]="['/', lang(), 'contatti']">{{ 'HEADER.CONTACTS' | translate }}</a> / 
+            <a [routerLink]="['/', lang(), 'location']">{{ 'HEADER.LOCATION' | translate }}</a> /
+            <a [routerLink]="['/', lang(), 'regolamento']">{{ 'HEADER.RULES' | translate }}</a> /
+            <a [routerLink]="['/', lang(), 'stanze', 'stanza-sala-colazione']">{{ 'HEADER.ROOM_BREAKFAST' | translate }}</a> /
+            <a [routerLink]="['/', lang(), 'stanze', 'stanza-politeama']">{{ 'HEADER.ROOM_POLITEAMA' | translate }}</a> /
+            <a [routerLink]="['/', lang(), 'stanze', 'stanza-pretoria']">{{ 'HEADER.ROOM_PRETORIA' | translate }}</a> /
+            <a [routerLink]="['/', lang(), 'tariffe']">{{ 'HEADER.RATES' | translate }}</a> 
+        </div>
+    </div>
+
+    <div class="scroll-top">
+        <span class="fa fa-chevron-up"></span>
+    </div>
+</div>

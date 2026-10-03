@@ -1,0 +1,87 @@
+<header>
+  <div class="inner">
+
+    <h1 role="button" tabindex="0" [routerLink]="['/', lang(), 'home']" (click)="closeMenu()">B&B Darrè</h1>
+
+    <button
+      type="button"
+      class="nav-toggle"
+      [class.open]="menuOpen"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="menuOpen"
+      aria-label="Toggle navigation"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav" [class.open]="menuOpen">
+
+      <li ngbDropdown class="nav-item">
+        <button
+          type="button"
+          class="nav-link"
+          ngbDropdownToggle
+        >
+          {{ 'HEADER.ROOMS' | translate }}
+        </button>
+
+        <div ngbDropdownMenu>
+          <a ngbDropdownItem [routerLink]="['/', lang(), 'stanze', 'stanza-pretoria']" (click)="closeMenu()">
+            {{ 'HEADER.ROOM_PRETORIA' | translate }}
+          </a>
+
+          <a ngbDropdownItem [routerLink]="['/', lang(), 'stanze', 'stanza-politeama']" (click)="closeMenu()">
+            {{ 'HEADER.ROOM_POLITEAMA' | translate }}
+          </a>
+
+          <a ngbDropdownItem [routerLink]="['/', lang(), 'stanze', 'stanza-sala-colazione']" (click)="closeMenu()">
+            {{ 'HEADER.ROOM_BREAKFAST' | translate }}
+          </a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/', lang(), 'tariffe']" (click)="closeMenu()">
+          {{ 'HEADER.RATES' | translate }}
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/', lang(), 'location']" (click)="closeMenu()">
+          {{ 'HEADER.LOCATION' | translate }}
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/', lang(), 'contatti']" (click)="closeMenu()">
+          {{ 'HEADER.CONTACTS' | translate }}
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/', lang(), 'regolamento']" (click)="closeMenu()">
+          {{ 'HEADER.RULES' | translate }}
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <button
+          type="button"
+          class="nav-link lang-switch"
+          (click)="switchLang(lang() === 'it' ? 'en' : 'it')"
+        >
+          <img
+            class="flagita"
+            style="width: 44px"
+            [src]="lang() === 'it' ? 'assets/images/Eng.png' : 'assets/images/Flag_of_Italy.png'"
+            [alt]="lang() === 'it' ? 'English' : 'Italiano'"
+          >
+        </button>
+      </li>
+
+    </ul>
+
+  </div>
+</header>

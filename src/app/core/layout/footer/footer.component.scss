@@ -1,0 +1,53 @@
+
+.info-area {
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.85);
+    color: rgba(255, 255, 255, 0.9);
+    padding: 55px 0px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+.site-info {
+    color: rgb(225, 225, 225);
+    text-align: center;
+    position: relative;
+    background: rgb(27, 27, 27);
+    padding: 40px;
+
+    a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: underline;
+    }
+}
+
+#footer-menu.footer-nav {
+    word-wrap: break-word;
+}
+
+.scroll-top {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    padding: 20px;
+    background: rgb(10, 10, 10);
+    transition: 0.2s ease-in-out;
+    border-radius: 2px;
+}
+
+@media (max-width: 767px) {
+    .info-area {
+        padding: 30px 16px 20px;
+        text-align: center;
+    }
+
+    .site-info {
+        padding: 24px 16px 80px;
+    }
+}

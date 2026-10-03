@@ -1,0 +1,60 @@
+<!-- <app-swiper></app-swiper> -->
+<div class="rooms-container d-flex flex-row flex-wrap justify-content-center gap-5">
+    <div class="regole col-lg-5 col-md-12 p-3">
+        <div *ngFor="let model of stanze">
+            <h2 class="mb-3">{{ model.labelKey | translate }} <span class="text-accent">{{model.name}}</span></h2>
+
+            @if (model.images) {
+            <ngb-carousel>
+                <ng-template *ngFor="let image of model.images" ngbSlide>
+                    <div class="room-image-wrapper mb-5">
+                        <img [src]="image" alt="Random first slide" />
+                    </div>                  
+                </ng-template>
+            </ngb-carousel>
+            }
+
+            <div *ngIf="model.description">
+                <h5>{{ 'ROOMS.NAME_ORIGIN_ACCENT' | translate }}<span class="text-accent"> {{ 'ROOMS.NAME_ORIGIN_SUFFIX' | translate }}</span></h5>
+                <p>{{model.description}}</p>
+            </div>
+
+           
+            <div *ngIf="model.extraInfo">{{model.extraInfo}}</div>
+
+            <div *ngIf="model.type">                
+                <h5><span class="text-accent">{{ 'ROOMS.TYPE_TITLE_ACCENT' | translate }} </span>{{ 'ROOMS.TYPE_TITLE_SUFFIX' | translate }}</h5>
+                <p>{{model.type}}</p>
+            </div>
+
+            <div *ngIf="model.services">
+                <h5><span class="text-accent">{{ 'ROOMS.SERVICES_TITLE_ACCENT' | translate }} </span>{{ 'ROOMS.SERVICES_TITLE_SUFFIX' | translate }}</h5>
+                <p>
+                {{ 'ROOMS.SERVICES_BALCONY' | translate }}<br>
+                {{ 'ROOMS.SERVICES_TV' | translate }}<br>
+                {{ 'ROOMS.SERVICES_DESK' | translate }}<br>
+                {{ 'ROOMS.SERVICES_AC' | translate }}<br>
+                {{ 'ROOMS.SERVICES_HEATING' | translate }}<br>
+                {{ 'ROOMS.SERVICES_WARDROBE' | translate }}<br>
+                {{ 'ROOMS.SERVICES_FRIDGE' | translate }}<br>
+                {{ 'ROOMS.SERVICES_BATHROOM' | translate }}<br>
+                {{ 'ROOMS.SERVICES_HAIRDRYER' | translate }}<br>
+                {{ 'ROOMS.SERVICES_KIT' | translate }}<br>
+                {{ 'ROOMS.SERVICES_DISPENSER' | translate }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="booking col-lg-3 col-md-12 p-3">
+
+        <p class="m-0 fw-bold">{{ 'BOOKING.CHECKIN' | translate }}</p>
+        <p class="mb-4 fw-bold">{{ 'BOOKING.CHECKOUT' | translate }}</p>
+
+        <p>
+            {{ 'BOOKING.CANCELLATION_INTRO' | translate }} <a
+                href="mailto:albertogamma&#64;yahoo.it">albertogamma&#64;yahoo.it</a>.
+            {{ 'BOOKING.CANCELLATION_OUTRO' | translate }}
+        </p>
+    </div>
+</div>

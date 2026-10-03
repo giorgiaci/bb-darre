@@ -1,0 +1,27 @@
+:host {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+.footer {
+    display: block;
+    position: relative;
+    height: 24.2rem;
+    app-footer {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        height: auto;
+
+        app-footer {
+            position: static;
+        }
+    }
+}

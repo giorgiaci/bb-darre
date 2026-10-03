@@ -1,0 +1,138 @@
+{
+  "HEADER": {
+    "ROOMS": "Rooms",
+    "ROOM_PRETORIA": "Pretoria Room",
+    "ROOM_POLITEAMA": "Politeama Room",
+    "ROOM_BREAKFAST": "Breakfast Room",
+    "RATES": "Prices & useful info",
+    "LOCATION": "Where we are",
+    "CONTACTS": "Contacts",
+    "RULES": "Internal regulation"
+  },
+  "HOME": {
+    "OPEN_SINCE": "Open since 2017",
+    "CENTER_PALERMO": "In the center of Palermo",
+    "MORE_INFO": "More information",
+    "ROOMS_TITLE": "Rooms",
+    "ROOMS_DESC": "Large balcony overlooking the square and harbor view. Led tv, desk, air-conditioning, wardrobe, minibar, private bathroom with shower.",
+    "INFO_TITLE": "Info & prices",
+    "INFO_DESC": "Useful information, prices and New Opening discounts . Information on check-in/check-out and extra services offered by B&B Darrè.",
+    "DIRECTIONS_TITLE": "How to reach us",
+    "DIRECTIONS_DESC": "B&B Darrè is located behind Piazza Ruggero Settimo, where the very important and active Politeama-Garibaldi Theater is situated.",
+    "HISTORY_TITLE": "A bit of history",
+    "POSTED_ON": "15 October 2017",
+    "AUTHOR": "Alberto",
+    "HISTORY_TEXT": "B&B Darrè is located behind Piazza Ruggero Settimo, where the very important and active Politeama-Garibaldi Theater is situated. This square is in the heart of the historic center of Palermo and close to the city/’s main monuments and tourist attractions. The name of the B&B comes from Palermitan dialect where â€œdarreâ€ means behind, as it is located precisely behind the famous Politeama Theater. The word â€œdarreâ€ can also be freely interpreted as â€œda reâ€ – meaning â€œroyallyâ€, in reference to our rooms which, while being of simple and essential furnishings, offer many comforts that make for a very pleasant stay. The symbol of the B&B is inspired by the most honorable emblem of the city, the Genius of Palermo, depicted as a crowned mature man with a divided beard, embraced by a snake which bites his chest. The Genius of Palermo is the personification of the city, a symbol of its inhabitants, its ethnic, cultural, religious, and social origins. It is believed to date back to the pre-Roman times. The B&B is located on Piazza Don Luigi Sturzo, where there are private and public transportation services available to take you along the main city arteries."
+  },
+    "BOOKING": {
+    "CHECKIN": "Check-in: on reservation",
+    "CHECKOUT": "Check-out: 10:00 AM",
+    "CANCELLATION_INTRO": "eservations by phone +39 329 748 4835 or email",
+    "CANCELLATION_OUTRO": "Free declaration if received at least 7 days before arrival. In the event that the cancellation is controlled by the user beyond the free cancellation terms (7 days before arrival) you will incur a cancellation penalty equal to 100% of the entire stay. In case of no-show within the indicated terms and / or no-show (no show), you will incur a penalty equal to 100% of the entire stayFree declaration if received at least 7 days before arrival. In the event that the cancellation is controlled by the user beyond the free cancellation terms (7 days before arrival) you will incur a cancellation penalty equal to 100% of the entire stay. In case of no-show within the indicated terms and / or no-show (no show), you will incur a penalty equal to 100% of the entire stay."
+  },
+  "INFO": {
+    "TITLE": "Prices & useful info",
+    "RATES_TITLE_ACCENT": "Our",
+    "RATES_TITLE_SUFFIX": "prices",
+    "ROOM_TYPE": "Accommodation",
+    "PRICE": "Price",
+    "DOUBLE_TRIPLE_SINGLE": "Double/Triple for single use",
+    "DOUBLE": "Double",
+    "TRIPLE_DOUBLE": "Triple for double use",
+    "TRIPLE": "Triple",
+    "USEFUL_INFO_ACCENT": "Useful",
+    "USEFUL_INFO_SUFFIX": "info",
+    "DISCOUNTS_TITLE": "Discounts",
+    "DISCOUNTS_TEXT": "Booking by phone: 10%.",
+    "EXTRA_SERVICES_TITLE": "Additional services",
+    "AIRPORT_TRANSFER": "Airport transfer (one way): €30.",
+    "AIRPORT_TRANSFER_RT": "Airport transfer (round trip): €50.",
+    "STATION_TRANSFER": "Train station transfer (one way): €15.",
+    "STATION_TRANSFER_RT": "Train station transfer (round trip): €25",
+    "KITCHEN_USE": "Kitchen use: €5 per day per room.",
+    "WASHER_USE": "Washing machine use (7KG)",
+    "OTHER_INFO_TITLE": "Other info",
+    "PETS_INFO": "The property welcomes pets, to be agreed in advance.",
+    "PARKING_INFO": "Paid Parking with agreed upon."
+  },
+  "ROOMS": {
+    "ROOM_LABEL": "Room",
+    "BREAKFAST_LABEL": "Breakfast Room",
+    "NAME_ORIGIN_ACCENT": "Origin of the",
+    "NAME_ORIGIN_SUFFIX": "name",
+    "TYPE_TITLE_ACCENT": "Room",
+    "TYPE_TITLE_SUFFIX": "type",
+    "SERVICES_TITLE_ACCENT": "Room",
+    "SERVICES_TITLE_SUFFIX": "amenities",
+    "SERVICES_BALCONY": "Large balcony overlooking the square and the harbour.",
+    "SERVICES_TV": "LED TV",
+    "SERVICES_DESK": "Desk",
+    "SERVICES_AC": "Air conditioning",
+    "SERVICES_HEATING": "Heating",
+    "SERVICES_WARDROBE": "Wardrobe",
+    "SERVICES_FRIDGE": "Mini fridge",
+    "SERVICES_BATHROOM": "Private bathroom with shower",
+    "SERVICES_HAIRDRYER": "Hairdryer",
+    "SERVICES_KIT": "Courtesy kit",
+    "SERVICES_DISPENSER": "Soap, hand and face wash and shower gel dispenser",
+    "POLITEAMA": {
+      "NAME": "Politeama",
+      "DESCRIPTION": "It is named after one of the most fascinating theaters in the city, the Politeama-Garibaldi, which is located just behind the B&B. The Theater’s design was entrusted to Giuseppe Damiani Almeyda through a construction competition in 1866. In 1874 it was initially inaugurated without roof, and only three years later in 1877 it was covered by the Orotea foundry, a metal structure which was considered innovative engineering at the time.",
+      "TYPE": "The room is a triple with one double bed and one single bed"
+    },
+    "COLAZIONE": {
+      "NAME": "Breakfast",
+      "EXTRA_INFO": "Ceiling fan. Side tables for singles, couples or groups, suitable bot for intimate and family breakfasts. coffee machine for a great Italian coffee or cappuccino, milk kettle, tea or American coffee. There is also a toaster and electric oven for excellent toast or to heat croissants, pizza, bread etc. There is a perfectly working kitchen with magnetic induction hobs. A very bright breakfast room is available to guests during breakfast time. There is a perfectly working kitchen with magnetic induction hobs that can be used at a small extra fee."
+    },
+    "PRETORIA": {
+      "NAME": "Pretoria",
+      "DESCRIPTION": "It is named after one of the most fascinating theaters in the city, the Politeama-Garibaldi, which is located just behind the B&B. The Theater’s design was entrusted to Giuseppe Damiani Almeyda through a construction competition in 1866. In 1874 it was initially inaugurated without roof, and only three years later in 1877 it was covered by the Orotea foundry, a metal structure which was considered innovative engineering at the time.",
+      "TYPE": "The room is a triple with one double and one single bed."
+    }
+  },
+  "CONTACTS": {
+    "TITLE": "Contact us",
+    "INTRO": "You can contact us using the form below. We will reply as soon as possible.",
+    "NAME_LABEL": "Your name",
+    "NAME_ERROR": "Please enter your name.",
+    "EMAIL_LABEL": "Your email",
+    "EMAIL_ERROR": "Please enter a valid email address.",
+    "SUBJECT_LABEL": "Subject",
+    "MESSAGE_LABEL": "Your message",
+    "SUBMIT": "Send"
+  },
+  "LOCATION": {
+    "TITLE_ACCENT": "How to",
+    "TITLE_SUFFIX": "reach us",
+    "FROM_AIRPORT_ACCENT": "From the ",
+    "FROM_AIRPORT_SUFFIX": "airport",
+    "BY_CAR": "By car",
+    "ON_FOOT": "On foot",
+    "AIRPORT_DIRECTIONS": "Proceed westwards to Via Cristoforo Colombo. Exit the roundabout and take A29 Racc towards Palermo / Mazara Del Vallo / Alcamo / Trapani. Use the 2 left lane to get into A29 / E90 towards Palermo and continue to E90. Take the exit to Centro / Porto. Enter the Viale della Siciliana Nord Ovest, at the roundabout take the 4th exit and take Via Adolfo Holm, turn right and take Via Gualtiero Giorgio on the left then take Via Nazario Sauro. At the roundabout take the 2nd exit and take Via Noce, continue straight on Piazza Principe di Camporeale. Turn left slightly, and take the Finocchiaro Aprile Course. Turn left and take Piazza Vittorio Emanuele Orlando. Turn right and take Via NicolÃ² Turrisi, turn left onto Via Villa Filipino. Turn slightly to the right to stay on Piazza Giovanni Amendola, turn right and take Via Paolo Paternostro, continue on Piazza Castelnuovo and continue straight on Piazza Ruggiero Settimo. Continue on Via E. Amaris, turn left and take Via Roma. Continue straight on Piazza Don Luigi Sturzo.",
+    "FROM_PORT_ACCENT": "From",
+    "FROM_PORT_SUFFIX": "Palermo port",
+    "PORT_WALK_DIRECTIONS": "Proceed north to Via Dell ‘Arsenale, turn left and take Piazza Giachery Carlo. After 450 m turn right and take Via Domenico ScinÃ . Turn left and take Piazza Don Luigi Sturzo.",
+    "FROM_PORT_CAR_EXTRA": "by car",
+    "PORT_CAR_DIRECTIONS": "Continue north towards Via Dell ‘Arsenale, turn left and take Via Fossi. Continue on Via Sebastiano Bagolino, turn left and take Via Amilcare Barca. Turn right and take Via dei Cantieri. Continue straight on Via Duca della Verdura, turn left and take Via della Libertà , continue on Piazza Castelnuovo / Piazza Ruggiero Settimo, turn left and take Piazza Ruggiero Settimo. Continue on Via E. Amari. Turn left and take Via Roma, continue straight on Piazza Don Luigi Sturzo."
+  },
+  "RULES": {
+    "TITLE": "Internal regulation",
+    "INTRO_LINE1": "We are pleased to welcome you to the Darrè Bed and Breakfast.",
+    "INTRO_LINE2": "We invite you to read our internal regulations.",
+    "LOGO_ALT": "Darrè Logo",
+    "GENERAL_INTRO": "The conduct to be observed at the B&B is not only that required by law, but above all that dictated by common sense and mutual respect.",
+    "RULE_ID_DOC": "Guests are requested, upon arrival, to show an identification document for completing the Public Safety card (data processed in accordance with the obligations of the law n. 675 of 31/12/96).",
+    "RULE_ARRIVAL_NOTICE": "Since the bed & breakfast is a small family-run establishment, there is no reception service available at all times of the day as is the case for hotels, therefore each customer is required to communicate (message, e-mail or telephone) to owner of the structure, the expected arrival time, at least 24 hours before the arrival. Going to the hotel without having advised about the arrival time can cause long waits. This mistake cannot be a reason for complaints or claims for reimbursement.",
+    "RULE_NO_GUESTS": "Guests are not allowed to access other people inside the B&B at any time, for reasons of Public Security.",
+    "RULE_CHECKIN_WINDOW": "Except in cases previously agreed, the rooms are available from 12 to 20 (Check –in). On the day of departure (Check-out) the rooms must be vacated by 10:00 to allow the final cleaning of the room.",
+    "RULE_BREAKFAST_TIME": "Breakfast is served between 8:00 AM and 9:30 AM (unless otherwise agreed).",
+    "RULE_NO_SMOKING": "Smoking inside the premises is strictly forbidden.",
+    "RULE_PETS": "The property welcomes pets, to be agreed in advance.",
+    "RULE_QUIET_HOURS": "In compliance with the B&B regulation and the municipal police regulations, silence must be observed in the time slot between 14.00 and 16.00 and from 22.00 to 08.00."
+  },
+  "FOOTER": {
+    "ADDRESS_TITLE": "Darrè",
+    "ADDRESS": "Via Benedetto Gravina, 98. Palermo (Italy) -90139",
+    "COPYRIGHT": "Copyright B&B Darrè 2017"
+  }
+}

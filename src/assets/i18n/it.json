@@ -1,0 +1,140 @@
+{
+  "HEADER": {
+    "ROOMS": "Le stanze",
+    "ROOM_PRETORIA": "Stanza Pretoria",
+    "ROOM_POLITEAMA": "Stanza Politeama",
+    "ROOM_BREAKFAST": "Sala Colazione",
+    "RATES": "Tariffe e info utili",
+    "LOCATION": "Dove siamo",
+    "CONTACTS": "Contatti",
+    "RULES": "Regolamento"
+  },
+  "HOME": {
+    "OPEN_SINCE": "Aperto dal 2017",
+    "CENTER_PALERMO": "Al centro di Palermo",
+    "MORE_INFO": "Maggiori informazioni",
+    "ROOMS_TITLE": "Le stanze",
+    "ROOMS_DESC": "Sono provviste di ampio balcone vista piazza e vista porto, tv a led, scrivania, aria condizionata, riscaldamento, guardaroba, frigobar, bagno privato con doccia, phon, kit di cortesia.",
+    "INFO_TITLE": "Info e tariffe utili",
+    "INFO_DESC": "Clicca qui per informazioni utili, tariffe e sugli sconti Nuova Apertura. Info su check-in/check-out e servizi extra offerti da B&B Darrè.",
+    "DIRECTIONS_TITLE": "Come raggiungerci",
+    "DIRECTIONS_DESC": "Il B&B Darrè è sito dietro Piazza Ruggero Settimo, dove risiede l'importantissimo e attivo teatro Politeama-Garibaldi. Tale piazza si trova nel cuore del centro storico di Palermo, vicinissimo alle principali attrazioni monumentali della città.",
+    "HISTORY_TITLE": "Un po’ di storia",
+    "POSTED_ON": "15 Ottobre 2017",
+    "AUTHOR": "Alberto",
+    "HISTORY_TEXT": "Il B&B Darrè è sito dietro Piazza Ruggero Settimo, dove risiede l’importantissimo e attivo teatro Politeama-Garibaldi. Tale piazza si trova nel cuore del centro storico di Palermo, vicinissimo alle principali attrazioni monumentali della città. Il nome della struttura prende spunto da una traduzione in dialetto palermitano della parola dietro, perchè è appunto localizzato dietro il famoso teatro Politeama. La parola stessa “Darrè” è una storpiatura della locuzione “da re” nel senso che le camere offrono molti comfort che rendono piacevole la permanenza. Il simbolo del B&B, prende spunto dal più onorefice emblema o nome tutelare della città, il Genio di Palermo, raffigurato come un uomo maturo dalla barba divisa, incoronato e abbracciato da un serpente che si nutre al suo petto. Il Genio di Palermo è personificazione della città, simbolo dei suoi abitanti, di origine o appartenenza etnica, culturale, religiosa, sociale. Probabilmente le sue origini sono pre-romane. Il B&B si trova in piazza Don Luigi Sturzo, dove stazionano mezzi privati e pubblici che hanno fermata lì per portarvi lungo le principali arterie cittadine."
+  },
+  "BOOKING": {
+    "CHECKIN": "Check-in: su preonotazione",
+    "CHECKOUT": "Check-out: ore 10:00 AM",
+    "CANCELLATION_INTRO": "La vostra notifica di cancellazione sarà effettiva solamente se effettuata al nostro Centro Prenotazioni per telefono +39 329 748 4835 oppure mail",
+    "CANCELLATION_OUTRO": "Cancellazione gratuita se pervenuta almeno 7 giorni prima dell'arrivo. Nel caso in cui la cancellazione sia effettuata da parte vostra oltre i termini di cancellazione gratuita ( 7 giorni prima dell’arrivo) incorrerete in una penale di cancellazione pari al 100% dell'intero soggiorno . In caso di mancata cancellazione entro i termini indicati e/o di mancato arrivo (no show), incorrerete in una penale pari al 100% dell'intero soggiorno ."
+  },
+  "INFO": {
+    "TITLE": "Tariffe e info utili",
+    "RATES_TITLE_ACCENT": "Le nostre",
+    "RATES_TITLE_SUFFIX": "tariffe",
+    "ROOM_TYPE": "Sistemazione",
+    "PRICE": "Prezzo",
+    "DOUBLE_TRIPLE_SINGLE": "Doppia/Tripla uso singola",
+    "DOUBLE": "Doppia",
+    "TRIPLE_DOUBLE": "Tripla uso doppia",
+    "TRIPLE": "Tripla",
+    "USEFUL_INFO_ACCENT": "Info",
+    "USEFUL_INFO_SUFFIX": "utili",
+    "DISCOUNTS_TITLE": "Sconti",
+    "DISCOUNTS_TEXT": "Prenotazione e pagamento con PayPal: 10%.",
+    "EXTRA_SERVICES_TITLE": "Servizi aggiuntivi",
+    "AIRPORT_TRANSFER": "Trasferimento da/per l’aereoporto: €30.",
+    "AIRPORT_TRANSFER_RT": "Trasferimento da/per l’aereoporto A/R: €50.",
+    "STATION_TRANSFER": "Trasferimento da/per la stazione dei treni: €15.",
+    "STATION_TRANSFER_RT": "Trasferimento da/per stazione dei treni A/R: €25",
+    "KITCHEN_USE": "Utilizzo cucina: €5 al giorno a camera.",
+    "WASHER_USE": "Utilizzo lavatrice(7KG): €7",
+    "OTHER_INFO_TITLE": "Altre info",
+    "PETS_INFO": "La struttura accoglie animali domestici, da concordare preventivamente.",
+    "PARKING_INFO": "Parcheggio a pagamento convenzionato."
+  },
+  "ROOMS": {
+    "ROOM_LABEL": "Stanza",
+    "BREAKFAST_LABEL": "Sala",
+    "NAME_ORIGIN_ACCENT": "Derivazione del",
+    "NAME_ORIGIN_SUFFIX": "nome",
+    "TYPE_TITLE_ACCENT": "Tipologia",
+    "TYPE_TITLE_SUFFIX": "camera",
+    "SERVICES_TITLE_ACCENT": "Servizi",
+    "SERVICES_TITLE_SUFFIX": "camera",
+    "SERVICES_BALCONY": "Ampio balcone vista piazza e vista porto.",
+    "SERVICES_TV": "Tv a led",
+    "SERVICES_DESK": "Scrivania",
+    "SERVICES_AC": "Aria condizionata",
+    "SERVICES_HEATING": "Riscaldamento",
+    "SERVICES_WARDROBE": "Guardaroba",
+    "SERVICES_FRIDGE": "Frigobar",
+    "SERVICES_BATHROOM": "Bagno privato con doccia",
+    "SERVICES_HAIRDRYER": "Asciugacapelli",
+    "SERVICES_KIT": "Kit di cortesia",
+    "SERVICES_DISPENSER": "Dispencer sapone, mani viso e bagnoschiuma",
+    "POLITEAMA": {
+      "NAME": "Politeama",
+      "DESCRIPTION": "Prende il nome da uno dei teatri più affascinanti della città, il tetro Politeama/Garibaldi, il cui bed and breakfast è sito proprio dietro. Il teatro, la cui progettazione venne affidata tramite concorso a Giuseppe Damiani Almeyda nel 1866, inizialmente fu inaugurato nel 1874 privo di copertura e nel 1877 venne coperto con una struttura in metallo considerata per l’epoca un’opera di grande ingegneria, dalla fonderia Orotea.",
+      "TYPE": "La camera è una tripla con un letto matrimoniale ed un letto singolo"
+    },
+    "COLAZIONE": {
+      "NAME": "Colazione",
+      "DESCRIPTION": "Ventilatore a pala\nTavolini per due persone, singoli o unibili\nMacchina del caffè\nBollitore per latte, te o caffè americano\nTostapane\nForno elettrico\nCucina con fornelli ad induzione magnetica",
+      "EXTRA_INFO": "Ventilatore a pala e riscaldamento. Tavolini per due persone, singoli o unibili, per colazioni intime e familiari. È provvista di macchina del caffè per un ottimo caffè o cappuccino italiano, bollitore per latte, te o caffè americano. Vi sono anche tostapane e forno elettrico per ottimi toast o per riscaldare cornetti, pizza, pane o quant’altro. La sala colazione, molto luminosa, è a disposizione della clientela nel momento della colazione. È presente una cucina di nuova generazione con fornelli ad induzione magnetica che può essere utilizzata con un piccolo supplemento."
+    },
+    "PRETORIA": {
+      "NAME": "Pretoria",
+      "DESCRIPTION": "La stanza Pretoria è chiamata così in onore della meravigliosa fontana pretoria sita nell’omonima pizza di Palermo. Realizzata in marmo toscano nel 1554 da Francesco Camilliani a Firenze e nel 1581 trasferita a Palermo. Raggiungibile anche a piedi in 15 minuti dalla struttura.",
+      "TYPE": "La camera è una matrimoniale doppia, ampia e convertibile a doppia con letti separati."
+    }
+  },
+  "CONTACTS": {
+    "TITLE": "Contattaci",
+    "INTRO": "Puoi contattarci tramite il seguente modulo. Ti risponderemo appena possibile.",
+    "NAME_LABEL": "Il tuo nome",
+    "NAME_ERROR": "Inserisci il tuo nome.",
+    "EMAIL_LABEL": "La tua email",
+    "EMAIL_ERROR": "Inserisci un indirizzo email valido.",
+    "SUBJECT_LABEL": "Oggetto",
+    "MESSAGE_LABEL": "Il tuo messaggio",
+    "SUBMIT": "Invia",
+    "CAPTCHA_ERROR": "Conferma di non essere un robot."
+  },
+  "LOCATION": {
+    "TITLE_ACCENT": "Come",
+    "TITLE_SUFFIX": "raggiungerci",
+    "FROM_AIRPORT_ACCENT": "Dall’",
+    "FROM_AIRPORT_SUFFIX": "aereoporto di Palermo",
+    "BY_CAR": "In macchina",
+    "ON_FOOT": "A piedi",
+    "AIRPORT_DIRECTIONS": "Procedi in direzione ovest verso Via Cristoforo Colombo. Esci dalla rotonda e prendi A29 Racc in direzione Palermo/Mazara Del Vallo/Alcamo/Trapani. Usa le 2 corsie di sinistra per entrare in A29/E90 verso Palermo e continua a seguire E90. Prendi l’uscita verso Centro/Porto. Entra in Viale della Regione Siciliana Nord Ovest, alla rotonda prendi la 4ª uscita e prendi Via Adolfo Holm, svolta a destra e prendi Via Gualtiero Giorgio, a sinistra e prendi Via Nazario Sauro. Alla rotonda prendi la 2ª uscita e prendi Via Noce, prosegui dritto su Piazza Principe di Camporeale. Svolta leggermente a sinistra e prendi Corso Cam Finocchiaro Aprile. Svolta a sinistra e prendi Piazza Vittorio Emanuele Orlando. Svolta a destra e prendi Via Nicolò Turrisi, a sinistra prendi Via Villa Filippina. Svolta leggermente a destra per rimanere su Piazza Giovanni Amendola, svolta a destra e prendi Via Paolo Paternostro, continua su Piazza Castelnuovo e prosegui dritto su Piazza Ruggiero Settimo/Politeama. Continua su Via E. Amaris, svolta a sinistra e prendi Via Roma. Prosegui dritto su Piazza Don Luigi Sturzo",
+    "FROM_PORT_ACCENT": "Dal",
+    "FROM_PORT_SUFFIX": "porto di Palermo",
+    "PORT_WALK_DIRECTIONS": "Procedi in direzione nord verso Via Dell’ Arsenale, svolta a sinistra e prendi Piazza Giachery Carlo. Dopo 450 m svolta a destra e prendi Via Domenico Scinà. Svolta a sinistra e prendi Piazza Don Luigi Sturzo",
+    "FROM_PORT_CAR_EXTRA": "in macchina",
+    "PORT_CAR_DIRECTIONS": "Procedi in direzione nord verso Via Dell’ Arsenale, svolta a sinistra e prendi Via ai Fossi. Continua su Via Sebastiano Bagolino, svolta a sinistra e prendi Via Amilcare Barca. Svolta a destra e prendi Via dei Cantieri. Prosegui dritto su Via Duca della Verdura, svolta a sinistra e prendi Via della Libertà, continua su Piazza Castelnuovo/Piazza Ruggiero Settimo, svolta a sinistra e prendi Piazza Ruggiero Settimo. Continua su Via E. Amari. Svolta a sinistra e prendi Via Roma, prosegui dritto su Piazza Don Luigi Sturzo."
+  },
+  "RULES": {
+    "TITLE": "Regolamento",
+    "INTRO_LINE1": "Siamo lieti di darvi il benvenuto nel Bed and Breakfast Darrè",
+    "INTRO_LINE2": "Vi invitiamo a prendere visione del nostro regolamento interno.",
+    "LOGO_ALT": "Logo Darrè",
+    "GENERAL_INTRO": "I comportamenti da osservare nel B&B non sono soltanto quelli sanciti dalla legge, ma soprattutto quelli dettati dal buon senso e dal reciproco rispetto.",
+    "RULE_ID_DOC": "I signori Clienti sono pregati, al momento dell’arrivo, di mostrare un documento di riconoscimento per la compilazione della schedina di Pubblica Sicurezza (dati trattati negli obblighi della normativa di legge n. 675 del 31/12/96).",
+    "RULE_ARRIVAL_NOTICE": "Essendo il bed & breakfast una piccola struttura a gestione familiare, non esiste un servizio di reception disponibile in tutte le ore del giorno come succede per gli hotel, perciò ogni cliente è tenuto a comunicare (messaggio, e-mail o telefonicamente) al proprietario della struttura, l’orario d’arrivo previsto, almeno 24 ore prima dell’arrivo stesso. Recarsi alla struttura senza aver avvisato circa l’orario d’arrivo, può causare attese anche lunghe. Tale disguido non può essere motivo di reclami o di pretese di rimborso.",
+    "RULE_NO_GUESTS": "Non è permesso agli ospiti di far accedere altre persone all’interno del B&B in qualsiasi orario, per motivi di Pubblica Sicurezza.",
+    "RULE_CHECKIN_WINDOW": "Eccetto casi preventivamente concordati, le camere sono disponibili dalle ore 12 alle ore 20 (Check–in). Il giorno della partenza (Check-out) le camere devono essere lasciate libere entro le ore 10:00 per permettere la pulizia finale della stanza.",
+    "RULE_BREAKFAST_TIME": "La colazione viene servita tra le ore 8:00 e le 09:30 (tranne diverso accordo).",
+    "RULE_NO_SMOKING": "E’ severamente vietato Fumare all’interno dei locali.",
+    "RULE_PETS": "Sono ammessi animali domestici.",
+    "RULE_QUIET_HOURS": "In conformità al regolamento del B&B e alle norme della Polizia Municipale si richiede di osservare il silenzio nella fascia oraria tra le ore 14.00 e le ore 16.00 e dalle ore 22.00 alle ore 08.00."
+  },
+  "FOOTER": {
+    "ADDRESS_TITLE": "Darrè",
+    "ADDRESS": "Via Benedetto Gravina, 98. Palermo (Pa) -90139",
+    "COPYRIGHT": "Copyright B&B Darrè 2017"
+  }
+}

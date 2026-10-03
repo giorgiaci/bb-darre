@@ -1,0 +1,109 @@
+:host{    
+    background-image: url('/assets/images/simple_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    background-attachment: fixed;
+    display: block;
+    min-height: calc(100vh - 24.2rem)
+}
+
+@media (max-width: 767px) {
+    :host {
+        background-size: 400px;
+    }
+}
+
+
+.contacts-container {
+    height: 100%;
+    padding: 11px 40px;
+    background-color: rgba(250, 250, 250, 0.6);
+
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    gap: 5rem;
+
+    .map {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 500px;
+        max-width: 600px;
+        
+        iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 4px !important;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+        }
+    }
+
+    .form {
+        width: 561px;
+        background: rgba(27, 27, 27, 0.3);
+        border-radius: 5px;
+        padding: 10px;
+        height: fit-content;
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"] {
+            padding: 3px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="password"],
+        input[type="search"],
+        textarea {
+            color: #666;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .form-group {
+            div{
+                margin-bottom: 1.5em;
+                &:first-child {
+                    margin-top: 0.8em;
+                }
+            }
+        }
+
+        button{
+            background: #34495e;
+            color: #fff;
+            padding: 10px;
+            &:hover {
+                color: #fff;
+                background: #505050;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .contacts-container {
+        padding: 11px 16px;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        gap: 2rem;
+
+        .map iframe {
+            height: 220px;
+        }
+    }
+}
