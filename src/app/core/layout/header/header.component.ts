@@ -30,7 +30,8 @@ export class HeaderComponent {
     this.menuOpen = !this.menuOpen;
   }
 
-  closeMenu(): void {
+  closeMenu(): void {     
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     this.menuOpen = false;
   }
 

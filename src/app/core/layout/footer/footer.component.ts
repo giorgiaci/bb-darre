@@ -11,4 +11,8 @@ import { TranslatePipe, TranslateService } from '@ngx-translate/core';
 export class FooterComponent {
   private translate = inject(TranslateService);
   lang = this.translate.currentLang;
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 }
