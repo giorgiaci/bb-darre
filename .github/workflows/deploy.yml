@@ -33,12 +33,14 @@ jobs:
         run: npm ci
 
       - name: Create environment file
+        env:
+          WEB3FORMS_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
         run: |
           mkdir -p src/environments
           cat > src/environments/environment.ts <<EOF
           export const environment = {
             production: true,
-            web3formsAccessKey: '${{ secrets.WEB3FORMS_ACCESS_KEY }}',
+            web3formsAccessKey: '$WEB3FORMS_ACCESS_KEY',
           };
           EOF
 
