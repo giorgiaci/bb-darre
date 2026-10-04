@@ -47,7 +47,7 @@
 .actions {
     position: absolute;
     z-index: 10;
-    top: 40%;
+    top: max(40%, 105px);
     left: 20%;
     font-size: 20px;
     
@@ -179,7 +179,7 @@
     .actions {
         left: 5%;
         right: 5%;
-        top: 30%;
+        top: max(30%, 105px);
         font-size: 16px;
 
         h2 {
@@ -210,7 +210,7 @@
 
 @media (max-width: 575px) {
     .actions {
-        top: 20%;
+        top: max(20%, 105px);
 
         h2 {
             font-size: 22px;
