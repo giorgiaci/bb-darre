@@ -9,35 +9,35 @@
 
     background-attachment: fixed;
 
-    .layer{
-        min-height: 400px;       
+    .layer {
+        min-height: 400px;
         color: rgba(255, 255, 255, 0.9);
         overflow: hidden;
         background: rgba(10, 10, 10, 0.75);
         padding: 55px 0px 40px;
 
-        .booking-link{
+        .booking-link {
             display: block;
             position: relative;
             transform: translate(4%, 100%);
-        
+
         }
     }
 }
 
-.images-container{
+.images-container {
     height: 70vh;
     height: 70dvh;
     max-height: 70vh;
     max-height: 70dvh;
     overflow: hidden;
 
-    &.home{
-        margin-top: 85px; 
+    &.home {
+        margin-top: 85px;
     }
 
 
-    img{
+    img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -50,11 +50,11 @@
     top: max(40%, 105px);
     left: 20%;
     font-size: 20px;
-    
-    h2{
+
+    h2 {
         font-size: 46px;
     }
-    
+
     .primary {
         background: #415b76;
         color: #ffffff;
@@ -63,21 +63,21 @@
         text-shadow: 1px 0px 0px #000, 1px 0px 1px #000, 1px 0px 1px #000;
         margin-right: 2rem;
 
-        &:hover{
+        &:hover {
             background: #34495e;
-             animation: bounce 1s;
+            animation: bounce 1s;
         }
     }
 
     .secondary {
         background: #505050;
-        background: rgba( 200, 200, 200, 0.9 );
+        background: rgba(200, 200, 200, 0.9);
         color: #ffffff;
         text-decoration: none;
         padding: 15px 25px;
         text-shadow: 1px 0px 0px #000, 1px 0px 1px #000, 1px 0px 1px #000;
 
-        &:hover{
+        &:hover {
             background: #505050;
             color: #ffffff;
         }
@@ -88,7 +88,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px 30px;
+    padding: 30px;
     min-height: 330px;
     background: #34495e;
     color: #ffffff;
@@ -100,6 +100,27 @@
         font-size: 38px;
         margin: 5px 0 25px 0;
         position: relative;
+    }
+
+    .col-lg-4.col-md-12 {
+
+        padding: 1rem;
+
+        div {
+            padding: 4rem;
+            border-radius: 8px;
+            transition: transform 0.25s ease-in-out, box-shadow 0.25s ease-in-out, background-color 0.25s ease-in-out;
+            will-change: transform;
+            min-height: 330px;
+            padding: 4rem;
+
+
+            &:hover {
+                transform: translateY(-8px);
+                background-color: rgba(255, 255, 255, 0.08);
+                box-shadow: 0 12px 20px rgba(0, 0, 0, 0.45);
+            }
+        }
     }
 }
 
@@ -168,10 +189,22 @@
 
 
 @media (max-width: 1199px) {
-    
+
     .contatti,
     .prenota {
-        padding: 2rem;
+        padding: 0rem;
+    }
+
+     .feature-box{
+        .col-lg-4.col-md-12 {
+    
+            padding: 0rem;
+            height: 290px;
+            div {
+                padding: 1rem;  
+                min-height: 290px;       
+            }
+        }
     }
 }
 
@@ -201,9 +234,16 @@
         max-height: 400px;
     }
 
-    .feature-box {
-        padding: 30px 20px;
-        min-height: unset;
+      .feature-box{
+        .col-lg-4.col-md-12 {
+    
+            padding: 0rem;
+            height: 290px;
+            div {
+                padding: 1rem;  
+                min-height: 290px;       
+            }
+        }
     }
 
 }
@@ -222,5 +262,5 @@
         height: 36dvh;
         max-height: 36vh;
         max-height: 36dvh;
-    }
+    }  
 }
