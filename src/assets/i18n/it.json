@@ -101,7 +101,8 @@
     "SUBJECT_LABEL": "Oggetto",
     "MESSAGE_LABEL": "Il tuo messaggio",
     "SUBMIT": "Invia",
-    "CAPTCHA_ERROR": "Conferma di non essere un robot."
+    "CAPTCHA_ERROR": "Conferma di non essere un robot.",
+    "SEND_ERROR": "Non è stato possibile inviare il messaggio. Riprova più tardi o scrivici via email."
   },
   "LOCATION": {
     "TITLE_ACCENT": "Come",

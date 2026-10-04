@@ -99,7 +99,8 @@
     "EMAIL_ERROR": "Please enter a valid email address.",
     "SUBJECT_LABEL": "Subject",
     "MESSAGE_LABEL": "Your message",
-    "SUBMIT": "Send"
+    "SUBMIT": "Send",
+    "SEND_ERROR": "We could not send your message. Please try again later or contact us by email."
   },
   "LOCATION": {
     "TITLE_ACCENT": "How to",
