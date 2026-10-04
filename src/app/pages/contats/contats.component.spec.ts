@@ -35,10 +35,8 @@ describe('ContatsComponent', () => {
       name: 'Test',
       email: 'test@example.com',
       subject: 'Subject',
-      message: 'Message',
-      botcheck: '',
+      message: 'Message'
     });
-    // Bypass the "submitted too fast" bot heuristic.
     component['formLoadedAt'] = Date.now() - 5000;
   }
 

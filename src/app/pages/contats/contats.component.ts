@@ -6,8 +6,6 @@ import { TranslatePipe } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../environments/environment';
 
-// Validators.required alone lets a string of only spaces through - this
-// rejects whitespace-only input on top of the required check.
 function noWhitespaceValidator(control: AbstractControl): ValidationErrors | null {
   return (control.value ?? '').trim().length === 0 ? { whitespace: true } : null;
 }
@@ -25,9 +23,6 @@ export class ContatsComponent implements OnInit {
   submitted = false;
   error = false;
 
-  // Timestamp when the form was rendered. Used as a simple bot heuristic:
-  // real visitors take at least a couple seconds to fill out a form, bots
-  // that script-submit it tend to do so almost instantly.
   private formLoadedAt = Date.now();
 
   constructor(
@@ -40,10 +35,7 @@ export class ContatsComponent implements OnInit {
       name: ['', [Validators.required, Validators.maxLength(100), noWhitespaceValidator]],
       email: ['', [Validators.required, Validators.email, Validators.maxLength(150)]],
       subject: ['', [Validators.required, Validators.maxLength(150), noWhitespaceValidator]],
-      message: ['', [Validators.required, Validators.maxLength(2000), noWhitespaceValidator]],
-      // Honeypot field: hidden from real users via CSS, so only bots that
-      // blindly fill in every field will populate it. See CONTACTS template.
-      botcheck: [''],
+      message: ['', [Validators.required, Validators.maxLength(2000), noWhitespaceValidator]]
     });
   }
 
@@ -53,11 +45,8 @@ export class ContatsComponent implements OnInit {
       this.contactForm.markAllAsTouched();
       return;
     }
-
-    // Honeypot tripped, or submitted suspiciously fast for a human -> likely
-    // a bot. Silently pretend success instead of actually sending the email.
     const submittedTooFast = Date.now() - this.formLoadedAt < 3000;
-    if (this.contactForm.value.botcheck || submittedTooFast) {
+    if (submittedTooFast) {
       this.sending = false;
       this.submitted = true;
       this.contactForm.reset();
@@ -67,8 +56,6 @@ export class ContatsComponent implements OnInit {
     this.sending = true;
     this.error = false;
 
-    // The access key is injected at build time; if it is missing the request
-    // would be rejected by Web3Forms, so surface the error instead of sending.
     const accessKey = (environment.web3formsAccessKey ?? '').trim();
     if (!accessKey) {
       this.sending = false;
@@ -81,8 +68,7 @@ export class ContatsComponent implements OnInit {
       name: this.contactForm.value.name.trim(),
       email: this.contactForm.value.email.trim(),
       subject: this.contactForm.value.subject.trim(),
-      message: this.contactForm.value.message.trim(),
-      botcheck: this.contactForm.value.botcheck,
+      message: this.contactForm.value.message.trim()
     };
 
     this.http.post('https://api.web3forms.com/submit', formData).subscribe({
