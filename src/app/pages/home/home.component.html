@@ -1,5 +1,5 @@
 @if (images) {
-<ngb-carousel>
+<ngb-carousel [showNavigationArrows]="false">
     <ng-template *ngFor="let image of images" ngbSlide>
         <div class="images-container" [class.home]="ishome">
             <img [src]="image" style="width: 100%" alt="B&B-darrè-images" />

@@ -82,7 +82,12 @@
     },
     "COLAZIONE": {
       "NAME": "Breakfast",
-      "EXTRA_INFO": "Ceiling fan. Side tables for singles, couples or groups, suitable bot for intimate and family breakfasts. coffee machine for a great Italian coffee or cappuccino, milk kettle, tea or American coffee. There is also a toaster and electric oven for excellent toast or to heat croissants, pizza, bread etc. There is a perfectly working kitchen with magnetic induction hobs. A very bright breakfast room is available to guests during breakfast time. There is a perfectly working kitchen with magnetic induction hobs that can be used at a small extra fee."
+      "EXTRA_INFO_FAN": "Ceiling fan and heating.",
+      "EXTRA_INFO_TABLES": "Side tables for singles, couples or groups, suitable for intimate and family breakfasts.",
+      "EXTRA_INFO_COFFEE": "Equipped with a coffee machine for a great Italian coffee or cappuccino, and a kettle for milk, tea or American coffee.",
+      "EXTRA_INFO_TOASTER": "There is also a toaster and electric oven for excellent toast or to heat croissants, pizza, bread and more.",
+      "EXTRA_INFO_ROOM": "The breakfast room, very bright, is available to guests during breakfast time.",
+      "EXTRA_INFO_KITCHEN": "There is a modern kitchen with magnetic induction hobs that can be used for a small extra fee."
     },
     "PRETORIA": {
       "NAME": "Pretoria",

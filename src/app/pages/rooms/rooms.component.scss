@@ -10,22 +10,26 @@
     color: rgb(77, 80, 81);
 }
 
+
 .rooms-container {
     padding: 11px 40px;
     background-color: rgba(250, 250, 250, 0.6);
 }
 
 .room-image-wrapper {
+    margin-bottom: 0!important;
     img {
         width: 100%;
         height: 50vh;
         object-fit: cover;
+        border-radius: 0.5rem;
+        box-shadow: inset 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     }
 }
 
 .text-accent {
     text-align: center;
-    color: #00c2a9;
+    color: #0085c2;
 }
 
 @media (max-width: 991px) {

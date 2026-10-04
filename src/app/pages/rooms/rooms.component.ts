@@ -68,13 +68,13 @@ export class RoomsComponent {
     const model: any = {
       name: this.translate.instant(`ROOMS.${key}.NAME`),
       labelKey: key === 'COLAZIONE' ? 'ROOMS.BREAKFAST_LABEL' : 'ROOMS.ROOM_LABEL',
-      description: this.translate.instant(`ROOMS.${key}.DESCRIPTION`),
       images: ROOM_IMAGES[key],
     };
 
     if (key === 'COLAZIONE') {
-      model.extraInfo = this.translate.instant('ROOMS.COLAZIONE.EXTRA_INFO');
+      // Extra info is rendered directly in the template via ROOMS.COLAZIONE.EXTRA_INFO_*
     } else {
+      model.description = this.translate.instant(`ROOMS.${key}.DESCRIPTION`);
       model.type = this.translate.instant(`ROOMS.${key}.TYPE`);
     }
 

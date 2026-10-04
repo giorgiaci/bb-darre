@@ -7,6 +7,15 @@ body {
     overflow-x: hidden;
 } 
 
+.carousel-control-prev-icon {
+    padding: 1.6rem;
+    background-color: #000000b5;
+}
+
+.carousel-control-next-icon {    
+    padding: 1.6rem;
+    background-color: #000000b5;
+}
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
 

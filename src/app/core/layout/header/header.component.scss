@@ -87,13 +87,18 @@ header {
         }
 
         .dropdown-menu {
-            background: rgba(27, 27, 27, 0.5) !important;
+            background: white!important;
             color: white;
             border: 0;
             transform: translate(0px, 63px) !important;
             border-radius: 0px 0px 5px 5px;
-
-
+            padding: 0;
+            overflow: hidden;
+            a {
+               padding: 10px 15px;
+                background: rgba(27, 27, 27, 0.5);
+                color: white;
+            }
             a:hover {
                 background: rgba(52, 73, 94, 0.5) !important;
                 color: white !important;
@@ -179,18 +184,23 @@ header {
                 width: 100%;
                 padding: 0.75rem 0;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-
+  a{
+                    padding: 10px 15px!important;
+                }
                 &:last-child {
                     border-bottom: none;
                 }
             }
+            
 
             .dropdown-menu {
-                position: static !important;
-                transform: none !important;
-                width: 100%;
-                background: rgba(0, 0, 0, 0.2);
-                box-shadow: none;
+                background: white;
+                color: black;
+                border: 1px solid #8a8a8ab0;
+                transform: translate(0px, 63px) !important;
+                border-radius: 0px 0px 5px 5px;              
+                padding: 0;
+                overflow: hidden;
             }
         }
     }

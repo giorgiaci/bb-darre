@@ -81,9 +81,13 @@
       "TYPE": "La camera è una tripla con un letto matrimoniale ed un letto singolo"
     },
     "COLAZIONE": {
-      "NAME": "Colazione",
-      "DESCRIPTION": "Ventilatore a pala\nTavolini per due persone, singoli o unibili\nMacchina del caffè\nBollitore per latte, te o caffè americano\nTostapane\nForno elettrico\nCucina con fornelli ad induzione magnetica",
-      "EXTRA_INFO": "Ventilatore a pala e riscaldamento. Tavolini per due persone, singoli o unibili, per colazioni intime e familiari. È provvista di macchina del caffè per un ottimo caffè o cappuccino italiano, bollitore per latte, te o caffè americano. Vi sono anche tostapane e forno elettrico per ottimi toast o per riscaldare cornetti, pizza, pane o quant’altro. La sala colazione, molto luminosa, è a disposizione della clientela nel momento della colazione. È presente una cucina di nuova generazione con fornelli ad induzione magnetica che può essere utilizzata con un piccolo supplemento."
+      "NAME": "Colazione",     
+      "EXTRA_INFO_FAN": "Ventilatore a pala e riscaldamento.",
+      "EXTRA_INFO_TABLES": "Tavolini per due persone, singoli o unibili, per colazioni intime e familiari.",
+      "EXTRA_INFO_COFFEE": "È provvista di macchina del caffè per un ottimo caffè o cappuccino italiano, bollitore per latte, te o caffè americano.",
+      "EXTRA_INFO_TOASTER": "Vi sono anche tostapane e forno elettrico per ottimi toast o per riscaldare cornetti, pizza, pane o quant’altro.",
+      "EXTRA_INFO_ROOM": "La sala colazione, molto luminosa, è a disposizione della clientela nel momento della colazione.",
+      "EXTRA_INFO_KITCHEN": "È presente una cucina di nuova generazione con fornelli ad induzione magnetica che può essere utilizzata con un piccolo supplemento."
     },
     "PRETORIA": {
       "NAME": "Pretoria",
