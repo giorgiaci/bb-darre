@@ -32,6 +32,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Create environment file
+        run: |
+          mkdir -p src/environments
+          cat > src/environments/environment.ts <<EOF
+          export const environment = {
+            production: true,
+            web3formsAccessKey: '${{ secrets.WEB3FORMS_ACCESS_KEY }}',
+          };
+          EOF
+
       - name: Build Angular app
         run: npm run build
 
