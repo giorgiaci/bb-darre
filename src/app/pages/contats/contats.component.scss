@@ -30,8 +30,6 @@
     .map {
         display: flex;
         flex-direction: column;
-        flex: 1 1 500px;
-        max-width: 600px;
         
         iframe {
             width: 100%;
@@ -41,8 +39,7 @@
         }
     }
 
-    .form {
-        width: 561px;
+    .form {       
         background: rgba(27, 27, 27, 0.3);
         border-radius: 5px;
         padding: 10px;

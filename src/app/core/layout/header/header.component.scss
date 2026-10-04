@@ -10,7 +10,7 @@ header {
         justify-content: space-between;
         align-items: center;
         height: 85px;
-        background: rgba(27, 27, 27, 0.5) !important;
+        background: rgba(27, 27, 27, 0.5);
         padding: 0 20px;
         gap: 1rem;
 
@@ -40,11 +40,11 @@ header {
             -webkit-transition: 0.2s all ease-in-out;
             letter-spacing: 2px;
 
-            &:not(.dropdown-item){
-               
-            &:hover {
-                border-bottom: 2px solid rgb(52, 73, 94);
-            } 
+            &:not(.dropdown-item) {
+
+                &:hover {
+                    border-bottom: 2px solid rgb(52, 73, 94);
+                }
             }
         }
 
@@ -79,7 +79,7 @@ header {
         }
 
         button {
-            &:not(.show){
+            &:not(.show) {
                 &.dropdown-toggle.nav-link:hover {
                     border-bottom: 2px solid rgb(52, 73, 94);
                 }
@@ -125,9 +125,11 @@ header {
                 span:nth-child(1) {
                     transform: translateY(9px) rotate(45deg);
                 }
+
                 span:nth-child(2) {
                     opacity: 0;
                 }
+
                 span:nth-child(3) {
                     transform: translateY(-9px) rotate(-45deg);
                 }
@@ -136,10 +138,19 @@ header {
     }
 }
 
-@media (max-width: 1200px) {
-    header .inner {
+@media (max-width: 1400px) {
+       header .inner {
         h1 {
-            font-size: 28px;
+            font-size: 31px;
+        }
+    }
+
+}
+
+@media (max-width: 1214px) {
+    header .inner {
+        h1{
+            color: white;
         }
 
         .nav-toggle {
@@ -157,7 +168,7 @@ header {
             flex-direction: column;
             align-items: flex-start;
             gap: 0;
-            background: rgba(27, 27, 27, 0.95) !important;
+            background: rgba(27, 27, 27, 0.95);
             padding: 1rem 20px;
 
             &.open {
@@ -178,9 +189,19 @@ header {
                 position: static !important;
                 transform: none !important;
                 width: 100%;
-                background: rgba(0, 0, 0, 0.2) !important;
+                background: rgba(0, 0, 0, 0.2);
                 box-shadow: none;
             }
         }
+    }
+}
+
+
+@media (max-width: 1214px) {
+    header {
+        .inner{
+            background: rgba(27, 27, 27, 0.95);
+        }        
+        color: white;
     }
 }

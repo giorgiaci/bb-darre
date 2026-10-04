@@ -27,7 +27,7 @@
     "BOOKING": {
     "CHECKIN": "Check-in: on reservation",
     "CHECKOUT": "Check-out: 10:00 AM",
-    "CANCELLATION_INTRO": "eservations by phone +39 329 748 4835 or email",
+    "CANCELLATION_INTRO": "Reservations by phone +39 329 748 4835 or email",
     "CANCELLATION_OUTRO": "Free declaration if received at least 7 days before arrival. In the event that the cancellation is controlled by the user beyond the free cancellation terms (7 days before arrival) you will incur a cancellation penalty equal to 100% of the entire stay. In case of no-show within the indicated terms and / or no-show (no show), you will incur a penalty equal to 100% of the entire stayFree declaration if received at least 7 days before arrival. In the event that the cancellation is controlled by the user beyond the free cancellation terms (7 days before arrival) you will incur a cancellation penalty equal to 100% of the entire stay. In case of no-show within the indicated terms and / or no-show (no show), you will incur a penalty equal to 100% of the entire stay."
   },
   "INFO": {
