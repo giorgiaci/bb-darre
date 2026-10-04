@@ -67,8 +67,17 @@ export class ContatsComponent implements OnInit {
     this.sending = true;
     this.error = false;
 
+    // The access key is injected at build time; if it is missing the request
+    // would be rejected by Web3Forms, so surface the error instead of sending.
+    const accessKey = (environment.web3formsAccessKey ?? '').trim();
+    if (!accessKey) {
+      this.sending = false;
+      this.error = true;
+      return;
+    }
+
     const formData = {
-      access_key: environment.web3formsAccessKey,
+      access_key: accessKey,
       name: this.contactForm.value.name.trim(),
       email: this.contactForm.value.email.trim(),
       subject: this.contactForm.value.subject.trim(),

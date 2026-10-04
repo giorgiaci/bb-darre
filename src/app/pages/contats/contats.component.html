@@ -58,6 +58,10 @@
                 <button type="submit">
                     {{ 'CONTACTS.SUBMIT' | translate }}
                 </button>
+
+                @if (error) {
+                <small>{{ 'CONTACTS.SEND_ERROR' | translate }}</small>
+                }
             </div>
         </form>
     </div>

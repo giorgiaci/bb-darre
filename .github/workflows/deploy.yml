@@ -36,6 +36,11 @@ jobs:
         env:
           WEB3FORMS_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
         run: |
+          if [ -z "${WEB3FORMS_ACCESS_KEY}" ]; then
+            echo "::error::WEB3FORMS_ACCESS_KEY secret is not configured. Add it under Settings > Secrets and variables > Actions before deploying."
+            exit 1
+          fi
+
           mkdir -p src/environments
           cat > src/environments/environment.ts <<EOF
           export const environment = {
